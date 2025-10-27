@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\aaudio">
+      <UniqueIdentifier>{25c4050e-95f5-4ad2-ab15-0055e6558f25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{bef44481-86c6-409e-bcdf-96a38ead1aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\fifo">
+      <UniqueIdentifier>{e31fe2ef-6416-4e3c-8ac8-4b219cee3676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\opensles">
+      <UniqueIdentifier>{32ed3a66-bdcb-4106-a9fa-791e1d4ecbdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\flowgraph">
+      <UniqueIdentifier>{8b84e695-8124-4c69-a3d9-2aac111c7fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\flowgraph\resampler">
+      <UniqueIdentifier>{cf5f076d-e364-4b8b-8332-b20dbe71835b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\aaudio\AAudioExtensions.h">
+      <Filter>Source Files\aaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\aaudio\AAudioLoader.h">
+      <Filter>Source Files\aaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\aaudio\AudioStreamAAudio.h">
+      <Filter>Source Files\aaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\AudioSourceCaller.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\DataConversionFlowGraph.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\FilterAudioStream.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\FixedBlockAdapter.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\FixedBlockReader.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\FixedBlockWriter.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\MonotonicCounter.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\OboeDebug.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\QuirksManager.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\SourceFloatCaller.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\SourceI16Caller.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\SourceI24Caller.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\SourceI32Caller.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\Trace.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fifo\FifoController.h">
+      <Filter>Source Files\fifo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fifo\FifoControllerIndirect.h">
+      <Filter>Source Files\fifo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opensles\AudioInputStreamOpenSLES.h">
+      <Filter>Source Files\opensles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opensles\AudioOutputStreamOpenSLES.h">
+      <Filter>Source Files\opensles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opensles\AudioStreamBuffered.h">
+      <Filter>Source Files\opensles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opensles\AudioStreamOpenSLES.h">
+      <Filter>Source Files\opensles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opensles\EngineOpenSLES.h">
+      <Filter>Source Files\opensles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opensles\OpenSLESUtilities.h">
+      <Filter>Source Files\opensles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opensles\OutputMixerOpenSLES.h">
+      <Filter>Source Files\opensles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\resampler\HyperbolicCosineWindow.h">
+      <Filter>Source Files\flowgraph\resampler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\resampler\IntegerRatio.h">
+      <Filter>Source Files\flowgraph\resampler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\resampler\KaiserWindow.h">
+      <Filter>Source Files\flowgraph\resampler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\resampler\LinearResampler.h">
+      <Filter>Source Files\flowgraph\resampler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\resampler\MultiChannelResampler.h">
+      <Filter>Source Files\flowgraph\resampler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\resampler\PolyphaseResampler.h">
+      <Filter>Source Files\flowgraph\resampler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\resampler\PolyphaseResamplerMono.h">
+      <Filter>Source Files\flowgraph\resampler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\resampler\PolyphaseResamplerStereo.h">
+      <Filter>Source Files\flowgraph\resampler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\resampler\ResamplerDefinitions.h">
+      <Filter>Source Files\flowgraph\resampler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\resampler\SincResampler.h">
+      <Filter>Source Files\flowgraph\resampler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\resampler\SincResamplerStereo.h">
+      <Filter>Source Files\flowgraph\resampler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\ChannelCountConverter.h">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\ClipToRange.h">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\FlowGraphNode.h">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\FlowgraphUtilities.h">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\ManyToMultiConverter.h">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\MonoBlend.h">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\MonoToMultiConverter.h">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\MultiToManyConverter.h">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\MultiToMonoConverter.h">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\RampLinear.h">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\SampleRateConverter.h">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\SinkFloat.h">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\SinkI16.h">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\SinkI24.h">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\SinkI32.h">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\SourceFloat.h">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\SourceI16.h">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\SourceI24.h">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\SourceI32.h">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\AdpfWrapper.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\Limiter.h">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\SinkI8_24.h">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flowgraph\SourceI8_24.h">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\aaudio\AAudioLoader.cpp">
+      <Filter>Source Files\aaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aaudio\AudioStreamAAudio.cpp">
+      <Filter>Source Files\aaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\AudioSourceCaller.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\AudioStream.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\AudioStreamBuilder.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\DataConversionFlowGraph.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\FilterAudioStream.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\FixedBlockAdapter.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\FixedBlockReader.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\FixedBlockWriter.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\LatencyTuner.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\OboeExtensions.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\QuirksManager.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\SourceFloatCaller.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\SourceI16Caller.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\SourceI24Caller.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\SourceI32Caller.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\StabilizedCallback.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\Trace.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\Utilities.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\Version.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fifo\FifoBuffer.cpp">
+      <Filter>Source Files\fifo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fifo\FifoController.cpp">
+      <Filter>Source Files\fifo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fifo\FifoControllerBase.cpp">
+      <Filter>Source Files\fifo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fifo\FifoControllerIndirect.cpp">
+      <Filter>Source Files\fifo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opensles\AudioInputStreamOpenSLES.cpp">
+      <Filter>Source Files\opensles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opensles\AudioOutputStreamOpenSLES.cpp">
+      <Filter>Source Files\opensles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opensles\AudioStreamBuffered.cpp">
+      <Filter>Source Files\opensles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opensles\AudioStreamOpenSLES.cpp">
+      <Filter>Source Files\opensles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opensles\EngineOpenSLES.cpp">
+      <Filter>Source Files\opensles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opensles\OpenSLESUtilities.cpp">
+      <Filter>Source Files\opensles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opensles\OutputMixerOpenSLES.cpp">
+      <Filter>Source Files\opensles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\resampler\IntegerRatio.cpp">
+      <Filter>Source Files\flowgraph\resampler</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\resampler\LinearResampler.cpp">
+      <Filter>Source Files\flowgraph\resampler</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\resampler\MultiChannelResampler.cpp">
+      <Filter>Source Files\flowgraph\resampler</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\resampler\PolyphaseResampler.cpp">
+      <Filter>Source Files\flowgraph\resampler</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\resampler\PolyphaseResamplerMono.cpp">
+      <Filter>Source Files\flowgraph\resampler</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\resampler\PolyphaseResamplerStereo.cpp">
+      <Filter>Source Files\flowgraph\resampler</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\resampler\SincResampler.cpp">
+      <Filter>Source Files\flowgraph\resampler</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\resampler\SincResamplerStereo.cpp">
+      <Filter>Source Files\flowgraph\resampler</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\ChannelCountConverter.cpp">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\ClipToRange.cpp">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\FlowGraphNode.cpp">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\ManyToMultiConverter.cpp">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\MonoBlend.cpp">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\MonoToMultiConverter.cpp">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\MultiToManyConverter.cpp">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\MultiToMonoConverter.cpp">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\RampLinear.cpp">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\SampleRateConverter.cpp">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\SinkFloat.cpp">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\SinkI16.cpp">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\SinkI24.cpp">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\SinkI32.cpp">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\SourceFloat.cpp">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\SourceI16.cpp">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\SourceI24.cpp">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\SourceI32.cpp">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\AdpfWrapper.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\Limiter.cpp">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\SinkI8_24.cpp">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flowgraph\SourceI8_24.cpp">
+      <Filter>Source Files\flowgraph</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\flowgraph\resampler\README.md">
+      <Filter>Source Files\flowgraph\resampler</Filter>
+    </None>
+  </ItemGroup>
+</Project>

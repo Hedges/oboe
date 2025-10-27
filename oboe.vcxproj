@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Android-arm64-v8a">
+      <Configuration>Debug</Configuration>
+      <Platform>Android-arm64-v8a</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Android-armeabi-v7a">
+      <Configuration>Debug</Configuration>
+      <Platform>Android-armeabi-v7a</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Android-x86_64">
+      <Configuration>Debug</Configuration>
+      <Platform>Android-x86_64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Android-arm64-v8a">
+      <Configuration>Release</Configuration>
+      <Platform>Android-arm64-v8a</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Android-armeabi-v7a">
+      <Configuration>Release</Configuration>
+      <Platform>Android-armeabi-v7a</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Android-x86_64">
+      <Configuration>Release</Configuration>
+      <Platform>Android-x86_64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{0feb841a-5442-4ee2-86c1-9fb61325243e}</ProjectGuid>
+    <RootNamespace>oboe</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android-x86_64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <AndroidNdkVersion>27.2.12479018</AndroidNdkVersion>
+    <CLanguageStandard>c17</CLanguageStandard>
+    <CppLanguageStandard>cpp17</CppLanguageStandard>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android-arm64-v8a'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <AndroidNdkVersion>27.2.12479018</AndroidNdkVersion>
+    <CLanguageStandard>c17</CLanguageStandard>
+    <CppLanguageStandard>cpp17</CppLanguageStandard>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android-armeabi-v7a'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <AndroidNdkVersion>27.2.12479018</AndroidNdkVersion>
+    <CLanguageStandard>c17</CLanguageStandard>
+    <CppLanguageStandard>cpp17</CppLanguageStandard>
+    <AndroidMinSdkVersion>14</AndroidMinSdkVersion>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Android-x86_64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <AndroidNdkVersion>27.2.12479018</AndroidNdkVersion>
+    <CLanguageStandard>c17</CLanguageStandard>
+    <CppLanguageStandard>cpp17</CppLanguageStandard>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Android-arm64-v8a'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <AndroidNdkVersion>27.2.12479018</AndroidNdkVersion>
+    <CLanguageStandard>c17</CLanguageStandard>
+    <CppLanguageStandard>cpp17</CppLanguageStandard>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Android-armeabi-v7a'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <AndroidNdkVersion>27.2.12479018</AndroidNdkVersion>
+    <CLanguageStandard>c17</CLanguageStandard>
+    <CppLanguageStandard>cpp17</CppLanguageStandard>
+    <AndroidMinSdkVersion>14</AndroidMinSdkVersion>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android-x86_64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android-arm64-v8a'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android-armeabi-v7a'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Android-x86_64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Android-arm64-v8a'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Android-armeabi-v7a'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android-arm64-v8a'">
+    <OutDir>$(SolutionDir)lib\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(Platform)\$(Configuration)\$(ProjectName)\$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android-armeabi-v7a'">
+    <OutDir>$(SolutionDir)lib\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(Platform)\$(Configuration)\$(ProjectName)\$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Android-arm64-v8a'">
+    <OutDir>$(SolutionDir)lib\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(Platform)\$(Configuration)\$(ProjectName)\$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Android-armeabi-v7a'">
+    <OutDir>$(SolutionDir)lib\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(Platform)\$(Configuration)\$(ProjectName)\$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android-x86_64'">
+    <OutDir>$(SolutionDir)lib\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(Platform)\$(Configuration)\$(ProjectName)\$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Android-x86_64'">
+    <OutDir>$(SolutionDir)lib\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(Platform)\$(Configuration)\$(ProjectName)\$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android-x86_64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>OBOE_ENABLE_LOGGING=1;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>src;include</AdditionalIncludeDirectories>
+      <LinkTimeOptimization>None</LinkTimeOptimization>
+      <ExceptionHandling>Disabled</ExceptionHandling>
+      <AdditionalOptions>-Wextra-semi -Wshadow -Wshadow-field %(AdditionalOptions)</AdditionalOptions>
+      <AddressSanitizer>None</AddressSanitizer>
+      <ErrorFormatSecurity>false</ErrorFormatSecurity>
+      <FortifySourceLevel>None</FortifySourceLevel>
+      <ProfileGuidedOptimizationMode>Disabled</ProfileGuidedOptimizationMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LibraryDependencies>android;log;atomic;z;opensles</LibraryDependencies>
+      <AdditionalOptions>-Wl,-z,max-page-size=16384 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android-arm64-v8a'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>OBOE_ENABLE_LOGGING=1;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>src;include</AdditionalIncludeDirectories>
+      <LinkTimeOptimization>None</LinkTimeOptimization>
+      <ExceptionHandling>Disabled</ExceptionHandling>
+      <AdditionalOptions>-Wextra-semi -Wshadow -Wshadow-field %(AdditionalOptions)</AdditionalOptions>
+      <AddressSanitizer>None</AddressSanitizer>
+      <ErrorFormatSecurity>false</ErrorFormatSecurity>
+      <FortifySourceLevel>None</FortifySourceLevel>
+      <ProfileGuidedOptimizationMode>Disabled</ProfileGuidedOptimizationMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LibraryDependencies>android;log;atomic;z;opensles</LibraryDependencies>
+      <AdditionalOptions>-Wl,-z,max-page-size=16384 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android-armeabi-v7a'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>OBOE_ENABLE_LOGGING=1;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>src;include</AdditionalIncludeDirectories>
+      <LinkTimeOptimization>None</LinkTimeOptimization>
+      <ExceptionHandling>Disabled</ExceptionHandling>
+      <AdditionalOptions>-Wextra-semi -Wshadow -Wshadow-field %(AdditionalOptions)</AdditionalOptions>
+      <AddressSanitizer>None</AddressSanitizer>
+      <ErrorFormatSecurity>false</ErrorFormatSecurity>
+      <FortifySourceLevel>None</FortifySourceLevel>
+      <ProfileGuidedOptimizationMode>Disabled</ProfileGuidedOptimizationMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LibraryDependencies>android;log;atomic;z;opensles</LibraryDependencies>
+      <AdditionalOptions>-Wl,-z,max-page-size=16384 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Android-x86_64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>OBOE_ENABLE_LOGGING=1;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>src;include</AdditionalIncludeDirectories>
+      <LinkTimeOptimization>None</LinkTimeOptimization>
+      <ExceptionHandling>Disabled</ExceptionHandling>
+      <AdditionalOptions>-Wextra-semi -Wshadow -Wshadow-field %(AdditionalOptions)</AdditionalOptions>
+      <AddressSanitizer>None</AddressSanitizer>
+      <ErrorFormatSecurity>false</ErrorFormatSecurity>
+      <FortifySourceLevel>None</FortifySourceLevel>
+      <ProfileGuidedOptimizationMode>Disabled</ProfileGuidedOptimizationMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LibraryDependencies>android;log;atomic;z;opensles</LibraryDependencies>
+      <AdditionalOptions>-Wl,-z,max-page-size=16384 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Android-arm64-v8a'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>OBOE_ENABLE_LOGGING=1;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>src;include</AdditionalIncludeDirectories>
+      <LinkTimeOptimization>None</LinkTimeOptimization>
+      <ExceptionHandling>Disabled</ExceptionHandling>
+      <AdditionalOptions>-Wextra-semi -Wshadow -Wshadow-field %(AdditionalOptions)</AdditionalOptions>
+      <AddressSanitizer>None</AddressSanitizer>
+      <ErrorFormatSecurity>false</ErrorFormatSecurity>
+      <FortifySourceLevel>None</FortifySourceLevel>
+      <ProfileGuidedOptimizationMode>Disabled</ProfileGuidedOptimizationMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LibraryDependencies>android;log;atomic;z;opensles</LibraryDependencies>
+      <AdditionalOptions>-Wl,-z,max-page-size=16384 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Android-armeabi-v7a'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>OBOE_ENABLE_LOGGING=1;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>src;include</AdditionalIncludeDirectories>
+      <LinkTimeOptimization>None</LinkTimeOptimization>
+      <ExceptionHandling>Disabled</ExceptionHandling>
+      <AdditionalOptions>-Wextra-semi -Wshadow -Wshadow-field %(AdditionalOptions)</AdditionalOptions>
+      <AddressSanitizer>None</AddressSanitizer>
+      <ErrorFormatSecurity>false</ErrorFormatSecurity>
+      <FortifySourceLevel>None</FortifySourceLevel>
+      <ProfileGuidedOptimizationMode>Disabled</ProfileGuidedOptimizationMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LibraryDependencies>android;log;atomic;z;opensles</LibraryDependencies>
+      <AdditionalOptions>-Wl,-z,max-page-size=16384 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="src\aaudio\AAudioExtensions.h" />
+    <ClInclude Include="src\aaudio\AAudioLoader.h" />
+    <ClInclude Include="src\aaudio\AudioStreamAAudio.h" />
+    <ClInclude Include="src\common\AdpfWrapper.h" />
+    <ClInclude Include="src\common\AudioSourceCaller.h" />
+    <ClInclude Include="src\common\DataConversionFlowGraph.h" />
+    <ClInclude Include="src\common\FilterAudioStream.h" />
+    <ClInclude Include="src\common\FixedBlockAdapter.h" />
+    <ClInclude Include="src\common\FixedBlockReader.h" />
+    <ClInclude Include="src\common\FixedBlockWriter.h" />
+    <ClInclude Include="src\common\MonotonicCounter.h" />
+    <ClInclude Include="src\common\OboeDebug.h" />
+    <ClInclude Include="src\common\QuirksManager.h" />
+    <ClInclude Include="src\common\SourceFloatCaller.h" />
+    <ClInclude Include="src\common\SourceI16Caller.h" />
+    <ClInclude Include="src\common\SourceI24Caller.h" />
+    <ClInclude Include="src\common\SourceI32Caller.h" />
+    <ClInclude Include="src\common\Trace.h" />
+    <ClInclude Include="src\fifo\FifoController.h" />
+    <ClInclude Include="src\fifo\FifoControllerIndirect.h" />
+    <ClInclude Include="src\flowgraph\ChannelCountConverter.h" />
+    <ClInclude Include="src\flowgraph\ClipToRange.h" />
+    <ClInclude Include="src\flowgraph\FlowGraphNode.h" />
+    <ClInclude Include="src\flowgraph\FlowgraphUtilities.h" />
+    <ClInclude Include="src\flowgraph\Limiter.h" />
+    <ClInclude Include="src\flowgraph\ManyToMultiConverter.h" />
+    <ClInclude Include="src\flowgraph\MonoBlend.h" />
+    <ClInclude Include="src\flowgraph\MonoToMultiConverter.h" />
+    <ClInclude Include="src\flowgraph\MultiToManyConverter.h" />
+    <ClInclude Include="src\flowgraph\MultiToMonoConverter.h" />
+    <ClInclude Include="src\flowgraph\RampLinear.h" />
+    <ClInclude Include="src\flowgraph\resampler\HyperbolicCosineWindow.h" />
+    <ClInclude Include="src\flowgraph\resampler\IntegerRatio.h" />
+    <ClInclude Include="src\flowgraph\resampler\KaiserWindow.h" />
+    <ClInclude Include="src\flowgraph\resampler\LinearResampler.h" />
+    <ClInclude Include="src\flowgraph\resampler\MultiChannelResampler.h" />
+    <ClInclude Include="src\flowgraph\resampler\PolyphaseResampler.h" />
+    <ClInclude Include="src\flowgraph\resampler\PolyphaseResamplerMono.h" />
+    <ClInclude Include="src\flowgraph\resampler\PolyphaseResamplerStereo.h" />
+    <ClInclude Include="src\flowgraph\resampler\ResamplerDefinitions.h" />
+    <ClInclude Include="src\flowgraph\resampler\SincResampler.h" />
+    <ClInclude Include="src\flowgraph\resampler\SincResamplerStereo.h" />
+    <ClInclude Include="src\flowgraph\SampleRateConverter.h" />
+    <ClInclude Include="src\flowgraph\SinkFloat.h" />
+    <ClInclude Include="src\flowgraph\SinkI16.h" />
+    <ClInclude Include="src\flowgraph\SinkI24.h" />
+    <ClInclude Include="src\flowgraph\SinkI32.h" />
+    <ClInclude Include="src\flowgraph\SinkI8_24.h" />
+    <ClInclude Include="src\flowgraph\SourceFloat.h" />
+    <ClInclude Include="src\flowgraph\SourceI16.h" />
+    <ClInclude Include="src\flowgraph\SourceI24.h" />
+    <ClInclude Include="src\flowgraph\SourceI32.h" />
+    <ClInclude Include="src\flowgraph\SourceI8_24.h" />
+    <ClInclude Include="src\opensles\AudioInputStreamOpenSLES.h" />
+    <ClInclude Include="src\opensles\AudioOutputStreamOpenSLES.h" />
+    <ClInclude Include="src\opensles\AudioStreamBuffered.h" />
+    <ClInclude Include="src\opensles\AudioStreamOpenSLES.h" />
+    <ClInclude Include="src\opensles\EngineOpenSLES.h" />
+    <ClInclude Include="src\opensles\OpenSLESUtilities.h" />
+    <ClInclude Include="src\opensles\OutputMixerOpenSLES.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\aaudio\AAudioLoader.cpp" />
+    <ClCompile Include="src\aaudio\AudioStreamAAudio.cpp" />
+    <ClCompile Include="src\common\AdpfWrapper.cpp" />
+    <ClCompile Include="src\common\AudioSourceCaller.cpp" />
+    <ClCompile Include="src\common\AudioStream.cpp" />
+    <ClCompile Include="src\common\AudioStreamBuilder.cpp" />
+    <ClCompile Include="src\common\DataConversionFlowGraph.cpp" />
+    <ClCompile Include="src\common\FilterAudioStream.cpp" />
+    <ClCompile Include="src\common\FixedBlockAdapter.cpp" />
+    <ClCompile Include="src\common\FixedBlockReader.cpp" />
+    <ClCompile Include="src\common\FixedBlockWriter.cpp" />
+    <ClCompile Include="src\common\LatencyTuner.cpp" />
+    <ClCompile Include="src\common\OboeExtensions.cpp" />
+    <ClCompile Include="src\common\QuirksManager.cpp" />
+    <ClCompile Include="src\common\SourceFloatCaller.cpp" />
+    <ClCompile Include="src\common\SourceI16Caller.cpp" />
+    <ClCompile Include="src\common\SourceI24Caller.cpp" />
+    <ClCompile Include="src\common\SourceI32Caller.cpp" />
+    <ClCompile Include="src\common\StabilizedCallback.cpp" />
+    <ClCompile Include="src\common\Trace.cpp" />
+    <ClCompile Include="src\common\Utilities.cpp" />
+    <ClCompile Include="src\common\Version.cpp" />
+    <ClCompile Include="src\fifo\FifoBuffer.cpp" />
+    <ClCompile Include="src\fifo\FifoController.cpp" />
+    <ClCompile Include="src\fifo\FifoControllerBase.cpp" />
+    <ClCompile Include="src\fifo\FifoControllerIndirect.cpp" />
+    <ClCompile Include="src\flowgraph\ChannelCountConverter.cpp" />
+    <ClCompile Include="src\flowgraph\ClipToRange.cpp" />
+    <ClCompile Include="src\flowgraph\FlowGraphNode.cpp" />
+    <ClCompile Include="src\flowgraph\Limiter.cpp" />
+    <ClCompile Include="src\flowgraph\ManyToMultiConverter.cpp" />
+    <ClCompile Include="src\flowgraph\MonoBlend.cpp" />
+    <ClCompile Include="src\flowgraph\MonoToMultiConverter.cpp" />
+    <ClCompile Include="src\flowgraph\MultiToManyConverter.cpp" />
+    <ClCompile Include="src\flowgraph\MultiToMonoConverter.cpp" />
+    <ClCompile Include="src\flowgraph\RampLinear.cpp" />
+    <ClCompile Include="src\flowgraph\resampler\IntegerRatio.cpp" />
+    <ClCompile Include="src\flowgraph\resampler\LinearResampler.cpp" />
+    <ClCompile Include="src\flowgraph\resampler\MultiChannelResampler.cpp" />
+    <ClCompile Include="src\flowgraph\resampler\PolyphaseResampler.cpp" />
+    <ClCompile Include="src\flowgraph\resampler\PolyphaseResamplerMono.cpp" />
+    <ClCompile Include="src\flowgraph\resampler\PolyphaseResamplerStereo.cpp" />
+    <ClCompile Include="src\flowgraph\resampler\SincResampler.cpp" />
+    <ClCompile Include="src\flowgraph\resampler\SincResamplerStereo.cpp" />
+    <ClCompile Include="src\flowgraph\SampleRateConverter.cpp" />
+    <ClCompile Include="src\flowgraph\SinkFloat.cpp" />
+    <ClCompile Include="src\flowgraph\SinkI16.cpp" />
+    <ClCompile Include="src\flowgraph\SinkI24.cpp" />
+    <ClCompile Include="src\flowgraph\SinkI32.cpp" />
+    <ClCompile Include="src\flowgraph\SinkI8_24.cpp" />
+    <ClCompile Include="src\flowgraph\SourceFloat.cpp" />
+    <ClCompile Include="src\flowgraph\SourceI16.cpp" />
+    <ClCompile Include="src\flowgraph\SourceI24.cpp" />
+    <ClCompile Include="src\flowgraph\SourceI32.cpp" />
+    <ClCompile Include="src\flowgraph\SourceI8_24.cpp" />
+    <ClCompile Include="src\opensles\AudioInputStreamOpenSLES.cpp" />
+    <ClCompile Include="src\opensles\AudioOutputStreamOpenSLES.cpp" />
+    <ClCompile Include="src\opensles\AudioStreamBuffered.cpp" />
+    <ClCompile Include="src\opensles\AudioStreamOpenSLES.cpp" />
+    <ClCompile Include="src\opensles\EngineOpenSLES.cpp" />
+    <ClCompile Include="src\opensles\OpenSLESUtilities.cpp" />
+    <ClCompile Include="src\opensles\OutputMixerOpenSLES.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\flowgraph\resampler\README.md" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

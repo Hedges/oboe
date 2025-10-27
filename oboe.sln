@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33808.371
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "oboe", "oboe.vcxproj", "{0FEB841A-5442-4EE2-86C1-9FB61325243E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Android-arm64-v8a = Debug|Android-arm64-v8a
+		Debug|Android-armeabi-v7a = Debug|Android-armeabi-v7a
+		Debug|Android-x86_64 = Debug|Android-x86_64
+		Release|Android-arm64-v8a = Release|Android-arm64-v8a
+		Release|Android-armeabi-v7a = Release|Android-armeabi-v7a
+		Release|Android-x86_64 = Release|Android-x86_64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FEB841A-5442-4EE2-86C1-9FB61325243E}.Debug|Android-arm64-v8a.ActiveCfg = Debug|Android-arm64-v8a
+		{0FEB841A-5442-4EE2-86C1-9FB61325243E}.Debug|Android-arm64-v8a.Build.0 = Debug|Android-arm64-v8a
+		{0FEB841A-5442-4EE2-86C1-9FB61325243E}.Debug|Android-armeabi-v7a.ActiveCfg = Debug|Android-armeabi-v7a
+		{0FEB841A-5442-4EE2-86C1-9FB61325243E}.Debug|Android-armeabi-v7a.Build.0 = Debug|Android-armeabi-v7a
+		{0FEB841A-5442-4EE2-86C1-9FB61325243E}.Debug|Android-x86_64.ActiveCfg = Debug|Android-x86_64
+		{0FEB841A-5442-4EE2-86C1-9FB61325243E}.Debug|Android-x86_64.Build.0 = Debug|Android-x86_64
+		{0FEB841A-5442-4EE2-86C1-9FB61325243E}.Release|Android-arm64-v8a.ActiveCfg = Release|Android-arm64-v8a
+		{0FEB841A-5442-4EE2-86C1-9FB61325243E}.Release|Android-arm64-v8a.Build.0 = Release|Android-arm64-v8a
+		{0FEB841A-5442-4EE2-86C1-9FB61325243E}.Release|Android-armeabi-v7a.ActiveCfg = Release|Android-armeabi-v7a
+		{0FEB841A-5442-4EE2-86C1-9FB61325243E}.Release|Android-armeabi-v7a.Build.0 = Release|Android-armeabi-v7a
+		{0FEB841A-5442-4EE2-86C1-9FB61325243E}.Release|Android-x86_64.ActiveCfg = Release|Android-x86_64
+		{0FEB841A-5442-4EE2-86C1-9FB61325243E}.Release|Android-x86_64.Build.0 = Release|Android-x86_64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF1ADCF5-AA29-48F9-B382-7E9B4245057F}
+	EndGlobalSection
+EndGlobal
